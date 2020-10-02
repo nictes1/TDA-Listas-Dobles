@@ -230,10 +230,15 @@ nodoDoble * BuscarNodoEspecifico(nodoDoble * lista, int dato)
     nodoDoble * buscado = lista;
 
 
-        while(buscado!=NULL && buscado->dato.edad != dato)
-        {
-            buscado = buscado->siguiente;
-        }
+    while(lista!=NULL && lista->dato.edad != dato)
+    {
+        lista = lista->siguiente;
+    }
+
+    if (lista)
+    {
+        buscado = lista;
+    }
 
     return buscado;
 }
@@ -243,15 +248,20 @@ nodoDoble * BorrarPrimeroNodoDoble (nodoDoble * lista)
 {
     nodoDoble * aux = lista;
 
-    if(aux)
+    if(lista)
     {
-        if(aux->siguiente)
+        if(lista->siguiente)
         {
             lista->anterior = NULL;
             lista = lista->siguiente;
             free(aux);
         }
-
+        else
+        {
+            lista->anterior = NULL;
+            lista->siguiente = NULL;
+            free(aux);
+        }
     }
 
     return lista;

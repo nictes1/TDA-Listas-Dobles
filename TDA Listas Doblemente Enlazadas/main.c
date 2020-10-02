@@ -20,7 +20,7 @@ int main()
     listaDoble=Agregar_En_Orden_Doble(listaDoble, CrearNodoDoble(per4));
 
 
-    MostarListasDobles(listaDoble);
+    //MostarListasDobles(listaDoble);
 
 //   listaDoble = BorrarPrimeroNodoDoble(listaDoble);
 //   printf("\n Borrar un nodo buscado\n");
@@ -46,9 +46,12 @@ int main()
 //        printf("\naaaaaaaaaa\n");
 //        MostarListasDobles(listaDoble);
 
-listaDoble = BorrarNodoBuscado(listaDoble,20);
-printf("\n----------------------------\n");
-MostarListasDobles(listaDoble);
+///        listaDoble = BorrarNodoBuscado(listaDoble,20);      ///anduvo
+///printf("\n----------------------------\n");
+//MostarListasDobles(listaDoble);
+
+    //listaDoble = BorrarPrimeroNodoDoble(listaDoble);  ///anduvo
+    //MostarListasDobles(listaDoble);
 
     return 0;
 

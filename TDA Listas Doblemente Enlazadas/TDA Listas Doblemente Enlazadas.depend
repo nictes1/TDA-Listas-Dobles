@@ -24,3 +24,28 @@
 	"Persona.h"
 	<string.h>
 
+1600818094 source:n:\nico\programacion\segundo cuatrimestre\laboratorio y programacion 2\trabajos practicos\trabajos practicos\listas dobles\tda listas dobles\tda listas doblemente enlazadas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListasDobles.h"
+	"Persona.h"
+
+1600817018 n:\nico\programacion\segundo cuatrimestre\laboratorio y programacion 2\trabajos practicos\trabajos practicos\listas dobles\tda listas dobles\tda listas doblemente enlazadas\listasdobles.h
+	<stdio.h>
+	<stdlib.h>
+	"Persona.h"
+	"ListasDobles.h"
+
+1600649321 n:\nico\programacion\segundo cuatrimestre\laboratorio y programacion 2\trabajos practicos\trabajos practicos\listas dobles\tda listas dobles\tda listas doblemente enlazadas\persona.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1600569470 source:n:\nico\programacion\segundo cuatrimestre\laboratorio y programacion 2\trabajos practicos\trabajos practicos\listas dobles\tda listas dobles\tda listas doblemente enlazadas\persona.c
+	"Persona.h"
+
+1601612464 source:n:\nico\programacion\segundo cuatrimestre\laboratorio y programacion 2\trabajos practicos\trabajos practicos\listas dobles\tda listas dobles\tda listas doblemente enlazadas\listas dobles.c
+	"ListasDobles.h"
+	"Persona.h"
+	<string.h>
+
